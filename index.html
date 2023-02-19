@@ -1,0 +1,174 @@
+<!--Declares document as html & english as language
+    imports bootstrap, links to css file, declares page title-->
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>My Shop - best online shopping </title>
+</head>
+
+
+<!--Starts page, adds page header-->
+<body>
+    <div class="row">
+        <div class="col-md-12">
+            <br>
+            <h1>Welcome to My Shop</h1>
+            <br>
+        </div>
+    </div>
+    
+    <!--Inserts row, adds empty column, then 2 columns, 
+        each with picture, description & 'Buy' button-->
+    <div class="row">
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-4">
+        <img src="item001.jpg" class="item" alt="blue sweather">
+            <h3>Blue sweather, £100</h3>
+        <button>Buy</button>
+        </div>
+        <div class="col-md-4">
+            <a><img src="item002.jpg" class="item" alt="apricot trousers"></a>
+            <h3>Apricot trousers, £60</h3>
+        <button>Buy</button>
+        </div>
+    </div>
+    <br>
+
+    <!--Inserts row, adds empty column, then 2 columns, 
+        each with picture, description & 'Buy' button-->
+    <div class="row">
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-4">
+        <img src="item003.jpg" class="item" alt="grey coat">
+            <h3>Grey coat, £150</h3>
+        <button>Buy</button>
+        </div>
+        <div class="col-md-4">
+            <img src="item004.jpg" class="item" alt="Dog rain jacket">
+            <h3>Dog rain jacket, £50</h3>
+        <button>Buy</button>
+        </div>
+    </div>
+    <br>
+
+    <!--Inserts row, adds empty column, then 2 columns, 
+        each with picture, description & 'Buy' button-->
+    <div class="row">
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-4">
+        <img src="item005.jpg" class="item" alt="eco shopping bag">
+            <h3>Eco shopping bag, £15</h3>
+        <button>Buy</button>
+        </div>
+        <div class="col-md-4">
+            <img src="item006.jpg" class="item" alt="green joggers">
+            <h3>Green joggers, £65</h3>
+        <button>Buy</button>
+        </div>
+    </div>
+    <br>
+
+    <!--Inserts row, adds empty column, then 2 columns,
+        each with picture, description & 'Buy' button-->
+    <div class="row">
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-4">
+        <img src="item007.jpg" class="item" alt="blue jeans">
+            <h3>Blue jeans, £70</h3>
+        <button>Buy</button>
+        </div>
+        <div class="col-md-4">
+            <img src="item008.jpg" class="item" alt="gold jacket">
+            <h3>Gold jacket, £125</h3>
+        <button>Buy</button>
+        </div>
+    </div>
+    <br>
+
+    <!--Inserts row, adds empty column, then 2 columns,
+        each with picture, description & 'Buy' button-->
+    <div class="row">
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-4">
+        <img src="item009.jpg" class="item" alt="red pink shirt">
+            <h3>Red-pink shirt, £60</h3>
+        <button>Buy</button>
+        </div>
+        <div class="col-md-4">
+            <img src="item010.jpg" class="item" alt="summer hat">
+            <h3>Summer hat, £40</h3>
+        <button>Buy</button>
+        </div>
+    </div>
+    <br>
+    <br>
+
+
+    <!---FOOTER-->
+    <!--Adds new row & first empty column-->
+    <div class="row">
+        <div class="col-md-2">
+        </div>
+
+        <!--Ads new column with shop logo and address details-->
+        <div class="col-md-1">
+            <br>
+            <img src="logo.png" class="logo" alt="logo">
+            <br><br>
+            <h5>My Shop</h5>
+            <h5>Shopping Street 1</h5>
+            <h5>AB1 2CD</h5>
+            <h5>UK</h5>
+        </div>
+
+        <!--Ads column with contact details form-->
+        <div class="col-md-6"> 
+        <form class="form-horizontal">
+            <h3>Contact form</h3> 
+
+            <!--First row for asking for Name-->
+            <div class="form-group row">
+                <label for="full-name" class="col-sm-2 control-label">Name:</label>
+                <div class="col-sm-6">
+                    <input type="text" id="full-name" name="full-name" class="form-control" placeholder="Full Name">
+                </div>
+            </div>
+
+            <!--Second row for asking for Email-->
+            <div class="form-group row">
+                <label for="email" class="col-sm-2 control-label">Email:</label>
+                <div class="col-sm-6">
+                    <input type="text" id="email" name="email" class="form-control" placeholder="Email">
+                </div>
+            </div>
+
+            <!--Third row for asking for Phone Number-->
+            <div class="form-group row">
+                <label for="phone" class="col-sm-2 control-label">Phone:</label>
+                <div class="col-sm-6">
+                    <input type="text" id="phone" name="phone" class="form-control" placeholder="Phone Number">    
+                </div>
+            </div>
+
+            <!-- Form submit button-->
+            <div class="form-group row">
+                <div class="col-sm-offset-2 col-sm-6">
+                    <button type="submit" class="btn-sm form button:hover">Submit</button>
+                </div>
+            </div>            
+        </form>
+        </div>
+    </div>
+
+<!-- End of page content and document-->
+        
+</body>
+</html>
+
